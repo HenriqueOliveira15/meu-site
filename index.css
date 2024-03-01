@@ -1,0 +1,96 @@
+body {
+    background-image: url('img/fundo.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+        opacity: 0.6; /* Define a opacidade como 50% */
+        border-radius: 10px;
+}
+    
+
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    max-width: 30%;
+    height: auto;
+}
+
+.center {
+
+    text-align: center;
+}
+
+h1 {
+    background-size: 90%;
+    color: #00ccbe;
+    font-size: 40px;
+}
+
+h2 {
+    background-size: 90%;
+    color: #00ccbe;
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px;
+    color: #09a6a3;
+}
+
+
+p {
+    max-width: 1000px; /* Defina o valor máximo de largura conforme necessário */
+
+}
+
+footer img {
+    max-width: 50px;
+    height: 50px;
+}
+    footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer a {
+        margin: 20px;
+        text-align: center;
+    }
+
+    footer p {
+        margin-top: 2px;
+    }
+
+.container {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color: green      
+}
+
+
+.fundo-frase {
+    background-color: yellow; /* Altere a cor do fundo conforme necessário */
+  }
